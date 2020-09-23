@@ -15,8 +15,9 @@ body{
   font-family: 'Andika', sans-serif;
   background-image: url("../images/pigeon-background.jpg");
   background-color: #DDDDDD;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -96,8 +97,7 @@ tr:nth-child(odd){
 }
 
 tr:hover {
-  background: #7e0820;
-  opacity: .25;
+  background: rgba(126, 8, 32, .25);
 }
 
 *:focus{
@@ -115,10 +115,11 @@ thead tr:last-child th:last-child{
 footer{
   min-height: 75px;
   width:100%;
+  padding: 0px;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  position: absolute;
-  bottom:0;
+  position: sticky;
+  bottom:0px;
 }
 
