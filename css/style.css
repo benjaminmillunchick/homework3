@@ -18,6 +18,7 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 main{
@@ -128,7 +129,8 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
-  position: sticky;
+  position: fixed;
   bottom:0px;
+  left: 0px
 }
 
